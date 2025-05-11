@@ -16,7 +16,7 @@
   
   /* Header */
   .chat-header {
-    background: #4a90e2;
+    background: #277a46;
     color: #fff;
     padding: 10px;
     display: flex;
@@ -77,7 +77,7 @@
     color: #333;
   }
   .user-message .message-text {
-    background: #4a90e2;
+    background: #277a46;
     color: #fff;
   }
   
@@ -114,6 +114,6 @@
     color: #555;
   }
   .chat-controls .material-symbols-rounded[type="submit"] {
-    color: #4a90e2;
+    color: #277a46;
   }
   
