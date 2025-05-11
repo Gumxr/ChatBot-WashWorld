@@ -1,0 +1,119 @@
+/* Container */
+.chatbot-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: sans-serif;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  .chat-header {
+    background: #4a90e2;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-info {
+    display: flex;
+    align-items: center;
+  }
+  .header-info svg {
+    margin-right: 8px;
+  }
+  .logo-text {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Body */
+  .chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f5f5f5;
+  }
+  .message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .bot-message {
+    justify-content: flex-start;
+  }
+  .user-message {
+    justify-content: flex-end;
+  }
+  .message svg {
+    flex-shrink: 0;
+    margin-right: 6px;
+  }
+  .user-message svg {
+    display: none;
+  }
+  .message-text {
+    max-width: 70%;
+    padding: 8px 12px;
+    border-radius: 16px;
+    line-height: 1.4;
+  }
+  .bot-message .message-text {
+    background: #fff;
+    color: #333;
+  }
+  .user-message .message-text {
+    background: #4a90e2;
+    color: #fff;
+  }
+  
+  /* Footer */
+  .chat-footer {
+    padding: 8px;
+    background: #eee;
+  }
+  .chat-form {
+    display: flex;
+    align-items: center;
+  }
+  .message-input {
+    flex: 1;
+    resize: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    height: 36px;
+  }
+  .chat-controls {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+  }
+  .chat-controls .material-symbols-rounded {
+    font-variation-settings: 'FILL' 1, 'wght' 400;
+    font-size: 1.3rem;
+    background: none;
+    border: none;
+    margin-left: 4px;
+    cursor: pointer;
+    color: #555;
+  }
+  .chat-controls .material-symbols-rounded[type="submit"] {
+    color: #4a90e2;
+  }
+  
